@@ -1,0 +1,5 @@
+RewriteEngine On    # Turn on the rewriting engine
+
+
+RewriteRule    ^menu/([A-Za-z0-9-]+)/?$    menu.php?id=$1    [NC,L]   
+RewriteRule    ^menu/([A-Za-z0-9-]+)/([A-Za-z0-9-]+)/?$    menu.php?id=$1    [NC,L]   
